@@ -1,3 +1,5 @@
+import { EmailService, MockEmailProvider } from "./EmailService.mjs";
+
 const provider1 = new MockEmailProvider('Provider1');
 const provider2 = new MockEmailProvider('Provider2');
 const emailService = new EmailService([provider1, provider2]);
