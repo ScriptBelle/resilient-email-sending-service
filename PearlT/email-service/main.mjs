@@ -1,6 +1,6 @@
 // src/index.js
 
-import { EmailService, MockEmailProvider } from './services/EmailService.js';
+import { EmailService, MockEmailProvider } from './services/EmailService.mjs';
 
 const provider1 = new MockEmailProvider('Provider1');
 const provider2 = new MockEmailProvider('Provider2');
