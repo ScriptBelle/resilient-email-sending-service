@@ -1,7 +1,7 @@
-// tests/EmailService.test.js
+// tests/EmailService.test.mjs
 
 import { strict as assert } from 'assert';
-import { EmailService, MockEmailProvider } from '../src/services/EmailService.js';
+import { EmailService, MockEmailProvider } from '../src/services/EmailService.mjs';
 
 describe('EmailService', () => {
   it('should send email successfully with the first provider', async () => {
