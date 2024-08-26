@@ -1,4 +1,4 @@
-    // src/services/EmailService.js
+    // src/services/EmailService.mjs
 
 export class EmailService {
   constructor(providers, maxRetries = 3, rateLimit = 5) {
